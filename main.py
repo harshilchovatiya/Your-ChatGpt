@@ -5,7 +5,7 @@ import openai
 openai.api_key = "api"
 
 app = Flask(__name__)
-app.config["MONGO_URI"] = "Your Api"
+app.config["MONGO_URI"] = "Your Mongo"
 mongo = PyMongo(app)
 
 @app.route("/")
